@@ -1,0 +1,21 @@
+addi x10, x0, 5
+jal x1, fact
+ebreak
+fact:
+addi sp, sp, -8
+sw x1, 4(sp)
+sw x10, 0(sp)
+slti x5, x10, 1
+beq x5, x0, one
+addi x10, x0, 1
+addi sp, sp, 8
+jalr x0, 0(x1)
+one:
+addi x10, x10, -1
+jal x1, fact
+addi x5, x10, 0
+lw x10, 0(sp)
+lw x1, 4(sp)
+addi sp, sp, 8
+mult x10, x10, x5
+jalr x0, 0(x1)
