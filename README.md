@@ -38,13 +38,16 @@ Six sample programs are included to demonstrate the simulator's functionality ac
 
 ## Example Screenshots
 
-![Assembly File]("C:/Users/Omar Ganna/Pictures/Screenshots/assemblycode.png")
+### Example of Instructions file
+![Assembly File](Screenshots/assemblycode.png)
 *Description: This screenshot shows an example of a Assembly file (.asm) containing the assmebly instructions to be executed.*
 
-![Data File]("C:/Users/Omar Ganna/Pictures/Screenshots/datafile.png")
+### Example of Data File
+![Data File](Screenshots/datafile.png)
 *Description: This screenshot shows an example of a Data file (.txt) containing the Data required for the program.*
 
-![Output Example]("C:\Users/Omar Ganna/Pictures/Screenshots/Screenshot 2024-04-30 173646.png")
+### Example of the final output
+![Output Example](Screenshots/Output.png)
 *Description: This screenshot shows an example of the final state of the registers and memory after the execution of the instructions.*
 
 # RISC-V-32I-Simulator
