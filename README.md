@@ -51,6 +51,6 @@ Six sample programs are included to demonstrate the simulator's functionality ac
 *Description: This screenshot shows an example of the final state of the registers and memory after the execution of the instructions.*
 
 ## Contributors
-- [Omar Ganna](https://github.com/omar-ganna)
+- [Omar Ganna](https://github.com/Kancipher)
 - [Ramy Shehata](https://github.com/GM-Sniper)
 - [Mohamed Khaled](https://github.com/mmohamedkhaled)
